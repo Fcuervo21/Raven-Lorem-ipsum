@@ -35,7 +35,7 @@ function DisplayLorem(props) {
 		//Fetch api
 		if (props.data === "paragraph") {
 			fetch(
-				"http://hipsum.co/api/?type=hipster-centric&paras=" +
+				"https://hipsum.co/api/?type=hipster-centric&paras=" +
 					paragraphValueToString
 			)
 				.then((res) => res.json())
@@ -44,7 +44,7 @@ function DisplayLorem(props) {
 				});
 		} else if (props.data === "sentence") {
 			fetch(
-				"http://hipsum.co/api/?type=hipster-centric&sentences=" +
+				"https://hipsum.co/api/?type=hipster-centric&sentences=" +
 					sentencesValueToString
 			)
 				.then((res) => res.json())

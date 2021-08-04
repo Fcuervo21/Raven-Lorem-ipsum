@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 
 function ParagraphSections(props) {
 	const element = props.data;
